@@ -1,0 +1,8 @@
+sv:
+  'false': "Fel"
+  hello: "Hej värld"
+  'no': "Nej"
+  'off': "Av"
+  'on': "På"
+  'true': "Sant"
+  'yes': "Ja"

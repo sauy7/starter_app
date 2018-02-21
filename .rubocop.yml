@@ -1,0 +1,36 @@
+inherit_from:
+
+AllCops:
+  Exclude:
+    - 'bin/**/*'
+    - 'db/schema.rb'
+    - 'node_modules/**/*'
+  TargetRailsVersion: 5.2
+
+Documentation:
+  Exclude:
+    - app/controllers/application_controller.rb
+    - app/helpers/application_helper.rb
+    - app/mailers/application_mailer.rb
+    - app/models/application_record.rb
+    - config/application.rb
+    - db/migrate/*.rb
+    - test/**/*.rb
+  Enabled: true
+
+Metrics/BlockLength:
+  Exclude:
+    - 'config/environments/*.rb'
+    - 'lib/tasks/*.rake'
+
+Metrics/MethodLength:
+  Exclude:
+    - 'db/migrate/*.rb'
+
+Style/Documentation:
+  Exclude:
+    - 'test/**/*'
+    - 'app/helpers/application_helper.rb'
+    - 'app/mailers/application_mailer.rb'
+    - 'app/models/application_record.rb'
+    - 'config/application.rb'
