@@ -217,7 +217,10 @@ GEM
       ast (~> 2.3)
     path_expander (1.0.2)
     pg (1.0.0)
+    pluginator (1.5.0)
     powerpack (0.1.1)
+    pre-commit (0.37.0)
+      pluginator (~> 1.5)
     premailer (1.11.1)
       addressable
       css_parser (>= 1.6.0)
@@ -382,6 +385,7 @@ DEPENDENCIES
   minitest-spec-rails
   octokit
   pg (>= 0.18, < 2.0)
+  pre-commit
   premailer-rails!
   puma (~> 3.11)
   rack-livereload
