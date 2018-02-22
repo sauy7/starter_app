@@ -34,7 +34,8 @@ if Rails.env.development?
       end
 
       files = Dir[Rails.root.join('config', 'locales', '*en.yml')] +
-        Dir[Rails.root.join('app', 'views', 'components', '**', '*en.yml')]
+              Dir[Rails.root.join('app', 'views', 'components', '**',
+                                  '*en.yml')]
 
       I18n.available_locales.delete_if { |l| l == :en }.each do |l2|
         l2 = l2.to_s
