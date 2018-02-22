@@ -15,7 +15,7 @@
 #
 # Uncomment the following lines to make the configuration take effect.
 
-# gemfile: .overcommit_gems.rb
+gemfile: .overcommit_gems.rb
 
 PreCommit:
   ALL:
