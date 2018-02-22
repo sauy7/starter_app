@@ -36,11 +36,14 @@ group :development do
   gem 'annotate'
   gem 'brakeman'
   gem 'bundler-audit'
+  gem 'colorize'
+  gem 'fasterer'
   gem 'guard'
   gem 'guard-livereload', require: false
   gem 'letter_opener_web', github: 'sauy7/letter_opener_web'
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'lol_dba'
+  gem 'overcommit'
   gem 'rack-livereload'
   gem 'rack-mini-profiler', require: false
   gem 'railroady'

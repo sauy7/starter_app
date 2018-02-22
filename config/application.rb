@@ -33,13 +33,14 @@ module StarterApp
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
     #
-    config.generators do |g|
-      g.stylesheets false
-      g.javascripts false
-      g.helper false
-      g.channel assets: false
-      g.test_framework :test_unit, fixture: false, fixture_replacement: nil
-      g.komponent stimulus: false, locale: true
+    config.generators do |generator|
+      generator.stylesheets false
+      generator.javascripts false
+      generator.helper false
+      generator.channel assets: false
+      generator.test_framework :test_unit,
+                               fixture: false, fixture_replacement: nil
+      generator.komponent stimulus: false, locale: true
     end
   end
 end

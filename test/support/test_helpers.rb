@@ -1,11 +1,13 @@
 # frozen_string_literal: true
 
 module TestHelpers
-  def l(string, options = {})
+  def localize(string, options = {})
     I18n.l(string, options)
   end
+  alias l :localize
 
-  def t(string, options = {})
+  def translate(string, options = {})
     I18n.t(string, options)
   end
+  alias t :translate
 end

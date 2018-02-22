@@ -2,4 +2,4 @@
 import "init";
 import "components";
 
-console.log("Hello World from Webpacker");
+console.log("Hello World from Webpacker")
